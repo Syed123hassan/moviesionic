@@ -1,0 +1,31 @@
+<ion-content>
+
+  <ion-card>
+    <div id="head">
+    <ion-card id="card">
+      <ion-input class="emovies">eMovies</ion-input>
+    </ion-card>
+  </div>
+
+    <ion-item>
+      <h2 class="login">Login</h2>
+     </ion-item>
+
+    <ion-card-content>
+     <ion-item>
+      <ion-input placeholder="Username" class="uname px-3"></ion-input>
+     </ion-item>
+     <br>
+     <ion-item>
+      <ion-input placeholder="Password" type="password" class="password px-3"></ion-input>
+     </ion-item>
+     <br>
+     <div id="container">
+     <ion-button (click)="logMeIn()" class="log">Login</ion-button>
+    </div>
+
+     <h3><a routerLink="/signup" class="signup">SignUp</a></h3>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
